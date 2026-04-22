@@ -29,7 +29,7 @@ const items = [
   'Google Sheets + fórmulas. Ingresás tus horas, costos y margen de ganancia. Te devuelve un precio sugerido con su justificación. Nunca más cobrás de memoria.',
   icon: Calculator,
   color: 'bg-amber-100 text-amber-600',
-  image: "/mockup3.jpg"
+  image: "/mockup3.jpg" ,
 
 }];
 
