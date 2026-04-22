@@ -99,7 +99,7 @@ export function HeroSection() {
   <div className="relative bg-slate-50 rounded-xl overflow-hidden border border-slate-100 aspect-[4/3]">
     
     <img
-      src="/images/hero.jpg"
+      src="/images/hero.jpeg"
       alt="Mockup propuesta"
       className="w-full h-full object-cover"
     />
