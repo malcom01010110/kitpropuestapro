@@ -94,14 +94,11 @@ export function HeroSection() {
             
             <div className="relative rounded-2xl bg-white shadow-2xl border border-slate-100 p-2 transform rotate-2 hover:rotate-0 transition-transform duration-500">
               <div className="absolute -inset-1 bg-gradient-to-r from-amber-400 to-amber-200 rounded-2xl blur opacity-20"></div>
-              <div className="relative bg-slate-50 rounded-xl overflow-hidden border border-slate-100 aspect-[4/3] flex flex-col">
-                {/* Mockup Header */}
-                <div className="h-10 bg-slate-100 border-b border-slate-200 flex items-center px-4 gap-2">
-                  <div className="w-3 h-3 rounded-full bg-red-400"></div>
-                  <div className="w-3 h-3 rounded-full bg-amber-400"></div>
-                  <div className="w-3 h-3 rounded-full bg-emerald-400"></div>
-                  <div className="ml-4 h-4 w-32 bg-white rounded-md"></div>
-                </div>
+              <img
+  src="/images/hero.jpg"
+  alt="Mockup propuesta"
+  className="rounded-xl w-full h-full object-cover"
+/>
                 {/* Mockup Body */}
                 <div className="flex-1 p-6 flex flex-col gap-4">
                   <div className="w-1/3 h-8 bg-slate-200 rounded-lg"></div>
