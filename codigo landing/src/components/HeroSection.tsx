@@ -119,7 +119,7 @@ export function HeroSection() {
                   </div>
                 </div>
               </div>
-
+            </motion.div>
               {/* Floating Badge */}
               <motion.div
                 initial={{
