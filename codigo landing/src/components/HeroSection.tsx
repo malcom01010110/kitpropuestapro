@@ -48,13 +48,20 @@ export function HeroSection() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.a
-                href="#cart"
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                className="inline-flex justify-center items-center px-8 py-4 text-lg font-bold rounded-xl text-slate-900 bg-amber-400 hover:bg-amber-500 shadow-lg shadow-amber-500/30 transition-all w-full sm:w-auto"
-              >
-                👉 Quiero el Kit ahora
-              </motion.a>
+  href="https://pay.hotmart.com/K105489493H"
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => {
+    if (window.fbq) {
+      window.fbq('track', 'AddToCart');
+    }
+  }}
+  whileHover={{ scale: 1.02 }}
+  whileTap={{ scale: 0.98 }}
+  className="inline-flex justify-center items-center px-8 py-4 text-lg font-bold rounded-xl text-slate-900 bg-amber-400 hover:bg-amber-500 shadow-lg shadow-amber-500/30 transition-all w-full sm:w-auto"
+>
+  👉 Quiero el Kit ahora
+</motion.a>
             </div>
 
             <div className="mt-6 flex items-center gap-4 text-sm text-slate-500">
