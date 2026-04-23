@@ -56,7 +56,6 @@ export function PricingSection() {
   whileHover={{ scale: 1.02 }}
   whileTap={{ scale: 0.98 }}
               className="block w-full py-5 px-8 bg-amber-400 hover:bg-amber-500 text-slate-900 text-xl font-bold rounded-xl shadow-[0_0_40px_rgba(245,158,11,0.3)] transition-all mb-8">
->
   👉 Quiero el Kit ahora
 </motion.a>
 
