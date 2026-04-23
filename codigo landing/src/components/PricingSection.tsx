@@ -44,18 +44,21 @@ export function PricingSection() {
               </div>
             </div>
 
-            <motion.a
-              href="#"
-              whileHover={{
-                scale: 1.02
-              }}
-              whileTap={{
-                scale: 0.98
-              }}
+<motion.a
+  href="https://pay.hotmart.com/K105489493H"
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => {
+    if (window.fbq) {
+      window.fbq('track', 'AddToCart');
+    }
+  }}
+  whileHover={{ scale: 1.02 }}
+  whileTap={{ scale: 0.98 }}
               className="block w-full py-5 px-8 bg-amber-400 hover:bg-amber-500 text-slate-900 text-xl font-bold rounded-xl shadow-[0_0_40px_rgba(245,158,11,0.3)] transition-all mb-8">
-              
-              👉 Quiero el Kit ahora
-            </motion.a>
+>
+  👉 Quiero el Kit ahora
+</motion.a>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-slate-500 font-medium border-t border-slate-100 pt-8">
               <div className="flex flex-col items-center gap-2">
